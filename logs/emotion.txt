@@ -1,0 +1,2 @@
+{"type": "daily", "date": "2025-05-08", "keyword": "보람참"}
+{"type": "loop", "datetime": "2025-05-08T19:39", "emotion": "답답하고 혼란스러움", "cause": "파이이썬 프로젝트트", "resolved": true, "method": "챗과 함께"}
