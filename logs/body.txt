@@ -1,0 +1,5 @@
+{"type": "weight", "date": "2025-05-09", "weight": 68.41, "time_of_day": "공복"}
+{"type": "morning_condition", "date": "2025-05-09", "swelling": 2, "fatigue": 3, "sleep_quality": 1}
+{"type": "weight", "date": "2025-05-09", "weight": 69.0, "time_of_day": "자기 전"}
+{"type": "weight", "date": "2025-05-09", "weight": 34.0, "time_of_day": "공복"}
+{"type": "weight", "date": "2025-05-09", "weight": 12.0, "time_of_day": "공복"}
