@@ -7,7 +7,7 @@ import json
 import os
 
 
-def keyword_already_logged(log_path):
+def is_already_logged(log_path):
     today = date.today().isoformat()
     if not os.path.exists(log_path):
         return False
@@ -15,7 +15,7 @@ def keyword_already_logged(log_path):
         for line in f:
             try:
                 entry = json.loads(line)
-                if entry.get("type") == "daily" and entry.get("date") == today:
+                if entry.get("type") == record_type and entry.get("date") == today:
                     return True
             except json.JSONDecodeError:
                 continue
@@ -34,7 +34,7 @@ def main():
         choice = input("선택 (1/2/3): ")
 
         if choice == "1":
-            if keyword_already_logged(log_path):
+            if is_already_logged(log_path, "daily"):
                 print("* 이미 오늘의 감정 키워드 기록이 끝났습니다. *")
                 continue
             print("\n=== 오늘의 감정 키워드 기록 ===")
