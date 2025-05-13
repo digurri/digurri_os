@@ -77,9 +77,9 @@ def handle_body_logging(body_logger):
         choice = input("선택 (1/2/3): ")
 
         if choice == "1":
-            time_of_day = input("공복 또는 자기 전 (공복/자기 전): ")
-            if is_already_logged(log_path,"weight", "time_of_day"):
-                print("* 이미 오늘의 몸무게 기록이 완료되었습니다. *")
+            time_of_day = input("공복 또는 자기 전 (공복/자기 전): ").strip()
+            if is_already_logged(log_path,"weight", time_of_day):
+                print(f"* 이미 오늘의 {time_of_day} 몸무게 기록이 완료되었습니다. *")
                 continue
             print("\n=== 몸무게 기록 ===")
             weight = float(input("몸무게를 입력하세요 (kg): "))

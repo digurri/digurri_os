@@ -3,3 +3,5 @@
 {"type": "weight", "date": "2025-05-09", "weight": 69.0, "time_of_day": "자기 전"}
 {"type": "weight", "date": "2025-05-09", "weight": 34.0, "time_of_day": "공복"}
 {"type": "weight", "date": "2025-05-09", "weight": 12.0, "time_of_day": "공복"}
+{"type": "weight", "date": "2025-05-13", "weight": 69.49, "time_of_day": "공복"}
+{"type": "weight", "date": "2025-05-13", "weight": 69.0, "time_of_day": "자기 전"}
