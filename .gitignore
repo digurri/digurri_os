@@ -3,17 +3,10 @@ __pycache__/
 *.py[cod]
 
 # 가상환경
-venv/
-.env/
+digurri_env/
 
 # 로그 파일
 logs/
 *.log
 
-# IDE 설정파일
-.vscode/
-*.code-workspace
 
-# 시스템 파일
-.DS_Store
-Thumbs.db
